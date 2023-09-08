@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { PiCookingPot } from 'react-icons/pi';
 
-const HeaderBlock = styled.header`
+const RecipeHeaderBlock = styled.header`
   background-color: #FFAD2C;
   border-radius: 2rem;
   padding: 1.5rem 1.5rem;
@@ -16,7 +16,7 @@ const HeaderBlock = styled.header`
     display: flex;
     align-items: center;
     
-    .icon {
+    i {
       font-size: 1.5rem;
       display: flex;
       justify-content: center;
@@ -38,16 +38,16 @@ const HeaderBlock = styled.header`
   }
 `;
 
-const Header = () => {
+const RecipeHeader = () => {
   return (
-    <HeaderBlock>
+    <RecipeHeaderBlock>
       <h1>
-        <span className="icon"><PiCookingPot /></span>
+        <i><PiCookingPot /></i>
         &nbsp;&nbsp;알뜰레시피
       </h1>
       <input type="text" placeholder="레시피 찾기"/>
-    </HeaderBlock>
+    </RecipeHeaderBlock>
   );
 }
 
-export default Header;
+export default RecipeHeader;

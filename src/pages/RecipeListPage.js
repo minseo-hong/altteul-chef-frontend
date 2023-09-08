@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 import RecommendedRecipe from '../components/recipe-list/RecommendedRecipe';
 import Refrigerator from '../components/refrigerator/Refrigerator';
-import Header from '../components/recipe-list/Header';
+import RecipeHeader from '../components/recipe-list/RecipeHeader';
 
-const RecipePageBlock = styled.div`
+const RecipeListPageBlock = styled.div`
   padding-bottom: 3rem;
   
   header {
@@ -44,14 +44,14 @@ const RecipePageBlock = styled.div`
   }
 `;
 
-const RecipePage = () => {
+const RecipeListPage = () => {
   return (
-    <RecipePageBlock>
-      <Header />
+    <RecipeListPageBlock>
+      <RecipeHeader />
       <RecommendedRecipe />
       <Refrigerator />
-    </RecipePageBlock>
+    </RecipeListPageBlock>
   );
 }
 
-export default RecipePage;
+export default RecipeListPage;
