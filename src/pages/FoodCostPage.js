@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import CostSummary from '../components/food-cost/CostSummary';
-import NewsIssue from '../components/news/NewsIssue';
+import NewsIssue from '../components/food-cost/NewsIssue';
 
 const FoodCostPageBlock = styled.div`
   padding: 1rem 2rem;
