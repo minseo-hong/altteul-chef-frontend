@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import RecommendedRecipe from '../components/recipe-list/RecommendedRecipe';
-import Refrigerator from '../components/refrigerator/Refrigerator';
+import Refrigerator from '../components/recipe-list/Refrigerator';
 import RecipeHeader from '../components/recipe-list/RecipeHeader';
 
 const RecipeListPageBlock = styled.div`
