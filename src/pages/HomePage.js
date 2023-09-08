@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Outlet } from "react-router-dom";
-import BottomNavbar from "../components/navbar/BottomNavbar";
+import BottomNavbar from "../components/common/BottomNavbar";
 
 const AppLayout = styled.div`
   width: 412px;
