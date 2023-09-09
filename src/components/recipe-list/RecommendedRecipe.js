@@ -9,16 +9,14 @@ const RecommendedRecipeBlock = styled.div`
 const RecipeHeading = styled.div`
   margin-bottom: 1rem;
 
-  h1, h2 {
-    margin: 0;
-  }
-
   h1 {
     font-weight: 700;
+    margin: 0;
   }
 
   h2 {
     font-weight: 400;
+    margin: 0;
   }
 
   span {
